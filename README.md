@@ -1,4 +1,4 @@
-Case Study
+# Case Study
 The HSG Bank is specialized on thematic equity baskets. These baskets contain a set of equities that belong to an economic or political theme. A popular basket of HSG bank is the Alternative Energy Basket which contains a range of blue chip companies investing in the booming alternative energies sector.
 HSG bank wants to issue a new thematic basket. You are the structuring team and have to come up with a new theme. Describe the theme and its economic rationale in a clear and stringent fashion. Reference academic theory and publications where available. Then identify equities you want to include into the basket according to characteristics you choose. These equities are your investment universe. Summarize this preliminary work on a maximum of one page.
 Once the basket universe has been chosen, the following items have to be addressed using the software tools and finance concepts you learned during your Masters studies. While the details of the analysis and the basket design is completely up to you, the board requires the following steps:
