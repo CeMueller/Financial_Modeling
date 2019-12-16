@@ -4,7 +4,7 @@ clear; clc;
 % Bloomberg, and Reuters). Use monthly data as base case.
 
 % Import bloomberg data and split up in needed formats
-[ Data, Headertext ] = xlsread('C:\Users\Cedric\Desktop\Uni\19_FS\Financial Modeling - Asset Allocation\Homework\AssetAllocation.xlsx')
+[ Data, Headertext ] = xlsread('C:\...\AssetAllocation.xlsx')
 % Define date vector for plots later on
 date = datenum( Headertext( 3:end , 1 ), 'dd.mm.yyyy' );
 % Headertexts as reference
@@ -246,13 +246,13 @@ Appraisal_Ratio = Jensens_Alpha / Tracking_Error;
 
 % 6. Determine the factor exposure of the basket using the Fama?French risk
 % factors. These factors are available for download at 
-% "http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html”
-% in the “Historical Benchmark Returns (Downloadable Files)” section. 
-% Choose “Fama/French Benchmark Factors.”
+% "http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.htmlÂ”
+% in the Â“Historical Benchmark Returns (Downloadable Files)Â” section. 
+% Choose Â“Fama/French Benchmark Factors.Â”
 
 % Read-in modified (deleted all months that are not required and changed 
 % format to xlsx) FF_Benchmark file
-[ FF_Factors, Headertext_2 ] = xlsread('C:\Users\Cedric\Desktop\Uni\19_FS\Financial Modeling - Asset Allocation\Homework\FF_Bench_Factors_Month_Mod.xlsx')
+[ FF_Factors, Headertext_2 ] = xlsread('C:\Users\...\FF_Bench_Factors_Month_Mod.xlsx')
 % Delete first column as it is a date and no F-F factor
 FF_Factors = FF_Factors( 1 : end , 2 : end ) / 100
 
